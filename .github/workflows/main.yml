@@ -1,0 +1,7 @@
+name: learn-github-actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntsu-latest
+    steps:
+      - run: echo "This is a pen"
