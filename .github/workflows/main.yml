@@ -10,3 +10,5 @@ jobs:
           ls -al
           cd .github/workflows/
           ls -al
+      - run: |
+          echo ${{ secrets.PROJECT_ID }}
