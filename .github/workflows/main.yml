@@ -12,3 +12,5 @@ jobs:
           ls -al
       - run: |
           echo ${{ secrets.PROJECT_ID }}
+      - run: |
+          echo ${{ secrets.APP_ID }}
