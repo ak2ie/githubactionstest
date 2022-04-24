@@ -13,6 +13,8 @@ jobs:
           cd .github/workflows/
           ls -al
       - run: |
-          echo ${{ secrets.PROJECT_ID }}
+          echo ${{ secrets.PROJECT_ID }} >> .env
+          ls -al
+          cat .env
       - run: |
           echo ${{ secrets.APP_ID }}
